@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    <!-- home section -->
+    <section class="home active">
+      <div id="main">
+        <h1 class="welcome-to-quiz">Quiz App</h1>
+        <div class="container">
+          <h3 class="category-select">Select Category</h3>
+          <div class="card">
+          <h2 class="scoreCard">Score
+            <p></p></div>
+          </h2>
+          <div class="categories">
+            <div class="categoryItem">
+              <p class="category music">Music</p>
+            </div>
+            <div class="categoryItem">
+              <p class="category modern-art">Modern Art</p>
+            </div>
+            <div class="categoryItem">
+              <p class="category coding">Coding</p>
+            </div>
+          </div>
+          <a><button class="startBtn buttons">Start</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- quiz section -->
+    <section class="app inactive">
+      <div id="main">
+        <h1 class="welcome-to-quiz">Quiz App</h1>
+        <div class="container">
+          
+          <div class="quiz">
+            <div class="timer">
+              <h1 class="categoryTitle">music</h1>
+              <p class="time">15</p>
+
+            </div>
+            <div class="quiz-container">
+            <div class="question">
+              <h2></h2>
+            </div>
+            <div class="options">
+              <ol>
+                <!-- <li><input type="radio" name="option" id="opt1">
+                <label for="opt1">Lorem1</label></li>
+                <li><input type="radio" name="option" id="opt2">
+                <label for="opt2">Lorem1</label></li>
+                <li><input type="radio" name="option" id="opt3">
+                <label for="opt3">Lorem1</label></li>
+                <li><input type="radio" name="option" id="opt4">
+                <label for="opt4">Lorem1</label></li> -->
+              </ol>
+            </div>
+          </div>
+          <h1 class="message"></h1>
+          
+          <div class="buttons">
+            
+          <button class="submit-btn">Next</button>
+          <a class="quit-btn" href="./index.html"><button>Restart</button></a><button class="result-btn inactive">Get Result</button>
+        </div>
+        <button class="prev">prev</button>
+
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+
+     <!-- result section -->
+    <section class="result inactive">
+      <div id="main">
+        <h1 class="welcome-to-quiz">Quiz App</h1>
+        <div class="container">
+          <div class="score">
+            <h3>Nice Try</h3>
+            <h2>you got 10/30</h2>
+            <div class="buttons">
+              <button class="start-new">Start New</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
