@@ -19,3 +19,4 @@ A sample application has been made available in the src folder which you can edi
   
 - **Production Build**: Run `npm run build` - This will produce a build edition that you can then deploy on the cloud/host on a static file service such as GitHub pages or surge.sh.  We recommend trying https://surge.sh for deploying static apps. Please note that the build also copies down the mockServiceWorker.js file into the dist folder. You can safely remove this file from the dist folder before deploying your app.
 "# Quiz-app" 
+"# Quiz-app" 
