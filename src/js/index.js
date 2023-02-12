@@ -266,8 +266,7 @@ resultBtn.addEventListener("click", () => {
   let rightAnswerCount = 0;
   let answerArray = [];
   timing.textContent = 0;
-  console.log(userAnswer);
-  console.log(allAnwers);
+ 
 
   userAnswer.forEach((el, index) => {
     if (el === allAnwers[index]) {
